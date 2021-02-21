@@ -1,0 +1,7 @@
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Xml\bin\Debug\Linq_To_Xml.exe.config
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Xml\bin\Debug\Linq_To_Xml.exe
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Xml\bin\Debug\Linq_To_Xml.pdb
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Xml\obj\Debug\Linq_To_Xml.csprojAssemblyReference.cache
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Xml\obj\Debug\Linq_To_Xml.csproj.CoreCompileInputs.cache
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Xml\obj\Debug\Linq_To_Xml.exe
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Xml\obj\Debug\Linq_To_Xml.pdb

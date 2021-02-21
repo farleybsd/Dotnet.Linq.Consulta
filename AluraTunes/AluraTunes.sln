@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AluraTunes", "AluraTunes\Al
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Com_Joins", "Linq_Com_Joins\Linq_Com_Joins.csproj", "{9ED3407D-DDF2-4BC4-B58B-7B7975CF6FF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_To_Xml", "Linq_To_Xml\Linq_To_Xml.csproj", "{4FBC6FF2-87FA-46F0-A770-0D91765AAFC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9ED3407D-DDF2-4BC4-B58B-7B7975CF6FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ED3407D-DDF2-4BC4-B58B-7B7975CF6FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ED3407D-DDF2-4BC4-B58B-7B7975CF6FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FBC6FF2-87FA-46F0-A770-0D91765AAFC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBC6FF2-87FA-46F0-A770-0D91765AAFC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBC6FF2-87FA-46F0-A770-0D91765AAFC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBC6FF2-87FA-46F0-A770-0D91765AAFC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
