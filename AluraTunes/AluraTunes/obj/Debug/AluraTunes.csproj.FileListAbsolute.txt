@@ -1,0 +1,7 @@
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\AluraTunes\bin\Debug\AluraTunes.exe.config
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\AluraTunes\bin\Debug\AluraTunes.exe
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\AluraTunes\bin\Debug\AluraTunes.pdb
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\AluraTunes\obj\Debug\AluraTunes.csprojAssemblyReference.cache
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\AluraTunes\obj\Debug\AluraTunes.csproj.CoreCompileInputs.cache
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\AluraTunes\obj\Debug\AluraTunes.exe
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\AluraTunes\obj\Debug\AluraTunes.pdb

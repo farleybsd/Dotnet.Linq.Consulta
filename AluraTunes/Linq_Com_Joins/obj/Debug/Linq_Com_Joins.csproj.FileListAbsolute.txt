@@ -1,0 +1,6 @@
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_Com_Joins\bin\Debug\Linq_Com_Joins.exe.config
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_Com_Joins\bin\Debug\Linq_Com_Joins.exe
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_Com_Joins\bin\Debug\Linq_Com_Joins.pdb
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_Com_Joins\obj\Debug\Linq_Com_Joins.csproj.CoreCompileInputs.cache
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_Com_Joins\obj\Debug\Linq_Com_Joins.exe
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_Com_Joins\obj\Debug\Linq_Com_Joins.pdb
