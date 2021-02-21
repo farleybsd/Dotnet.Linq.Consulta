@@ -1,0 +1,14 @@
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Entities\bin\Debug\Linq_To_Entities.exe.config
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Entities\bin\Debug\Linq_To_Entities.exe
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Entities\bin\Debug\Linq_To_Entities.pdb
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Entities\obj\Debug\Linq_To_Entities.csproj.CoreCompileInputs.cache
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Entities\obj\Debug\Linq_To_Entities.exe
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Entities\obj\Debug\Linq_To_Entities.pdb
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Entities\bin\Debug\Data\AluraTunes.mdf
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Entities\bin\Debug\Data\AluraTunes_log.ldf
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Entities\bin\Debug\EntityFramework.dll
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Entities\bin\Debug\EntityFramework.xml
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Entities\obj\Debug\Linq_To_Entities.csprojAssemblyReference.cache
+C:\MyGith\Dotnet.Linq.Consulta\AluraTunes\Linq_To_Entities\obj\Debug\Linq_To_Entities.csproj.CopyComplete
