@@ -96,12 +96,18 @@ namespace Linq_To_Entities
         {
             var queryLinqtoentitiesrefinandoconsultas = from f in contexto.Faixas
                                                         where f.Album.Artista.Nome.Contains(buscarArtista)
+                                                        && (!string.IsNullOrEmpty(buscaAlbum) 
+                                                        ?  f.Album.Artista.Nome.Contains(buscaAlbum) 
+                                                        : true)
+                                                        orderby f.Album.Titulo,f.Nome
                                                         select f;
 
-            if (!string.IsNullOrEmpty(buscaAlbum))
-            {
-                queryLinqtoentitiesrefinandoconsultas = queryLinqtoentitiesrefinandoconsultas.Where(q => q.Album.Artista.Nome.Contains(buscaAlbum));
-            }
+            //if (!string.IsNullOrEmpty(buscaAlbum))
+            //{
+            //    queryLinqtoentitiesrefinandoconsultas = queryLinqtoentitiesrefinandoconsultas.Where(q => q.Album.Artista.Nome.Contains(buscaAlbum));
+            //}
+
+            //queryLinqtoentitiesrefinandoconsultas = queryLinqtoentitiesrefinandoconsultas.OrderBy(q => q.Album.Titulo).ThenBy(q => q.Nome);
 
             foreach (var faixa in queryLinqtoentitiesrefinandoconsultas)
             {
