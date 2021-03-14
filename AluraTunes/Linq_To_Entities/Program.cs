@@ -32,8 +32,32 @@ namespace Linq_To_Entities
 
                 foreach (var faixaEGenero in faixaEGeneros)
                 {
-                    Console.WriteLine("{0}\t{1}",faixaEGenero.f.Nome, faixaEGenero.g.Nome);
+                    Console.WriteLine("{0}\t{1}", faixaEGenero.f.Nome, faixaEGenero.g.Nome);
                 }
+
+
+                Console.WriteLine();
+                //1 - Linq to entities join
+
+                Console.WriteLine("Linq to entities join");
+                var textoBusca = "Led";
+
+                var queryBuscar = from a in contexto.Artistas
+                                  join alb in contexto.Albums
+                                  on a.ArtistaId equals alb.ArtistaId
+                                  where a.Nome.Contains(textoBusca)
+                                  select new 
+                                  { 
+                                    NomeArtista = a.Nome,
+                                    NomeAlbum = alb.Titulo
+                                  };
+
+                foreach (var item in queryBuscar)
+                {
+                    Console.WriteLine("{0}\t{1}", item.NomeAlbum, item.NomeArtista);
+                }
+
+                
             }
 
 
