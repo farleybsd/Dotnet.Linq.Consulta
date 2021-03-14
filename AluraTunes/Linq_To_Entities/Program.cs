@@ -113,6 +113,20 @@ namespace Linq_To_Entities
             {
                 Console.WriteLine("{0}\t{1}", faixa.Album.Titulo.PadRight(40), faixa.Nome);
             }
+
+            Console.WriteLine();
+            //1 - Linq to entities count
+            Console.WriteLine("1 - Linq to entities count");
+
+            var queryLinqtoentitiescount = from c in contexto.Faixas
+                                           where c.Album.Artista.Nome == "Led Zeppelin"
+                                           select c;
+
+            // var quantidade = queryLinqtoentitiescount.Count();
+            var quantidade = contexto.Faixas
+                            .Count(c => c.Album.Artista.Nome == "Led Zeppelin");
+
+            Console.WriteLine($"Led Zeppelin tem {quantidade} musicas na databse");
         }
 
         private static void ImprimirGenero(IQueryable<Genero> query)
