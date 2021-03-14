@@ -125,8 +125,21 @@ namespace Linq_To_Entities
             // var quantidade = queryLinqtoentitiescount.Count();
             var quantidade = contexto.Faixas
                             .Count(c => c.Album.Artista.Nome == "Led Zeppelin");
-
             Console.WriteLine($"Led Zeppelin tem {quantidade} musicas na databse");
+
+            Console.WriteLine();
+            Console.WriteLine("Notas Fiscais");
+            var queryItensNotaFiscal = from inf in contexto.ItemNotaFiscals
+                                       where inf.Faixa.Album.Artista.Nome == "Led Zeppelin"
+                                       select new { totaldoItem = inf.Quantidade * inf.PrecoUnitario};
+
+            var totoalDoArtista = queryItensNotaFiscal.Sum(inf => inf.totaldoItem);
+
+            Console.WriteLine($"Total do artista em R$ {totoalDoArtista}");
+
+
+
+
         }
 
         private static void ImprimirGenero(IQueryable<Genero> query)
