@@ -54,10 +54,26 @@ namespace Linq_To_Entities
 
                 foreach (var item in queryBuscar)
                 {
-                    Console.WriteLine("{0}\t{1}", item.NomeAlbum, item.NomeArtista);
+                    Console.WriteLine("{0}\t{1}", item.NomeArtista, item.NomeAlbum);
                 }
 
-                
+                Console.WriteLine();
+                //2 - Linq to entities sem join
+
+                Console.WriteLine("2 - Linq to entities sem join");
+
+                var queryLinqtoentitiessemjoin = from alb in contexto.Albums
+                                                 where alb.Artista.Nome.Contains(textoBusca)
+                                                 select new { 
+                                                    NomeArtista= alb.Artista.Nome,
+                                                    NomeAlbum = alb.Titulo
+
+                                                 };
+
+                foreach (var item in queryLinqtoentitiessemjoin)
+                {
+                    Console.WriteLine("{0}\t{1}", item.NomeArtista,item.NomeAlbum);
+                }
             }
 
 
