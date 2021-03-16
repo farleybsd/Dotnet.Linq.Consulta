@@ -112,6 +112,36 @@ namespace Linq_To_Entities
                         );
                 }
 
+                Console.WriteLine();
+
+                Console.WriteLine("Max");
+                var contextoMax = new AluraTunesEntities();
+
+                var maiorVenda = contextoMax.NotaFiscals.Max(nf => nf.Total);
+                var menorVenda = contextoMax.NotaFiscals.Max(nf => nf.Total);
+                var vendaMedia = contextoMax.NotaFiscals.Average(nf => nf.Total);
+
+                Console.WriteLine("A menor venda é de R$ {0}", menorVenda);
+                Console.WriteLine("A venda média é de R$ {0}", vendaMedia);
+
+                Console.WriteLine("A maior venda é de R$ {0}", maiorVenda);
+
+
+                Console.WriteLine("Mediana:");
+
+                var mediana = from nf in contextoMax.NotaFiscals
+                              select nf.Total;
+
+                var contagem = mediana.Count();
+
+                var queryordenada = mediana.OrderBy(Total => Total);
+
+               var elementoCentral = queryordenada.Skip(contagem / 2).First();
+
+                var medianaa = elementoCentral;
+
+                Console.WriteLine("Mediana:{0}",medianaa);
+
                 Console.ReadKey();
             }
 
